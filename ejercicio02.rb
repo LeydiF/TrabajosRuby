@@ -1,3 +1,5 @@
+# Realizar un algoritmo que simule una calculadora
+
 print "Seleccione una operacion:
 1. suma
 2. resta
