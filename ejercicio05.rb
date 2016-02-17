@@ -1,10 +1,19 @@
-print "digite un numero"
-datoUsuario = gets.chomp.to_i
+print "cuantos numeros va a ingresar"
+cantidad = gets.chomp.to_i
 numero = 1
+suma = 0.to_i
 
-while numero <= 20
-	operacion = datoUsuario * numero
-	puts "#{datoUsuario} x #{numero} = #{operacion}"
-	numero += 1 
 
+
+while numero <= cantidad
+	print "digite un numero "
+	numeroUsuario = gets.chomp.to_i
+	suma = suma + numeroUsuario
+	numero += 1
 end
+
+resultado2 = suma / cantidad
+print "El promedior de sus datos son: #{resultado2}"
+
+
+
