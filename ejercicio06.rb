@@ -9,4 +9,3 @@ for i in 1..DatoUsuario
     puts " " * (DatoUsuario - i) + resultado1
          resultado1 += simbolo * 2 
  end 
-

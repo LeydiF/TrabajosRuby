@@ -1,24 +1,20 @@
 
+# numero = 1
+#  for i in 1..1000
+#  	numero += i if (i % 3 == 0 || i % 5 == 0)
 
-# print "Introduce un caracter: " 
-# caracter = gets.chomp
-# print "Introudce el numero de filas: " 
-# filas = gets.chomp.to_i
-# valor = caracter 
- 
-# for i in 1..filas 
-#     puts " " * (filas - i) + valor 
-#     valor += caracter * 2 
-# end 
+#  end
+#  puts numero
 
-puts 'Digite un numero' 
-DatoUsuario = gets.chomp.to_i 
-puts 'Digite un simbolo' 
-simbolo = gets.chomp
-resultado1 = simbolo
+print "Digite un numero"
+numero = gets.chomp.to_i
+fibonacci = 1
+fibonacci1 = 2
+fibonacci3 = [1,2]
+fibonacci3.last(2)
 
-for i in 1..DatoUsuario 
-    puts " " * (DatoUsuario - i) + resultado1
-         resultado1 += simbolo * 2 
- end 
+for i in 1..numero
+	fibonacci3.last(2)
+	puts fibonacci3
+end
 
